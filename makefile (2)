@@ -1,0 +1,4 @@
+main:main.o   p.o     
+	gcc   -o   main   main.o   mytool1.o   mytool2.o    
+main.o:main.c   mytool1.h   mytool2.h     
+	gcc   -c   main.c
